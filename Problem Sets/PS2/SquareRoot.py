@@ -18,7 +18,8 @@ def iterate(f, x0, tol=1e-12, N=100):
     """Iterate the function f n times starting at x0.
     f: function to iterate
     x0: starting value
-    n: number of iterations
+    tol: minimum tolerance for the error
+    N: maximum number of iterations
     Returns: the value of f^n(x0)
     """
     x_prev = 0
