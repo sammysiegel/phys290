@@ -67,7 +67,7 @@ ax[1].imshow(curie, cmap='gray')
 ax[1].set_title('Original Curie')
 ax[2].imshow(merged_image, cmap='gray')
 ax[2].set_title('Merged Image')
-plt.savefig('FilterIllusion.png')
+plt.savefig('/Users/ssiegel/Library/CloudStorage/Box-Box/2023/phys290/Problem Sets/PS8/FilterIllusion.png')
 plt.show()
 
 
